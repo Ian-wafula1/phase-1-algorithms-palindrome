@@ -7,7 +7,7 @@ describe("isPalindrome", () => {
     expect(isPalindrome("abba")).to.be.true;
   });
   it("returns true for 'racecar'", () => {
-    expect(isPalindrome("racecar")).to.be.true;
+    expect(isPalindrome("race car")).to.be.true;
   });
   it("returns true for 'a'", () => {
     expect(isPalindrome("a")).to.be.true;
